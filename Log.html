@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Real Estate Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='bootstrap.min.css'>
+    <script src='popper.min.js'></script>
+    <script src='bootstrap.min.js'></script>
+    <script src='jquery-3.5.1.min.js'></script> 
+    <link rel="shortcut icon" href="img/building.png" type="image/x-icon">
+</head>
+<body style="background-image: url(img/pexels-julia-kuzenkov-442028-1974596.jpg);background-size: cover;">
+    <header>
+        <h1>Login to Real Estate Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="restate.html">Home</a></li>
+                <li><a href="Sign.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="login-form">
+            <h2>Login</h2>
+            <form action="login_process.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="Sign.html">Sign Up</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Real Estate Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
