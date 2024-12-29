@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom's Props</title>
+    <link rel='stylesheet' href='bootstrap.min.css'>
+    <script src='popper.min.js'></script>
+    <script src='bootstrap.min.js'></script>
+    <script src='jquery-3.5.1.min.js'></script> 
+    <link rel="shortcut icon" href="img/building.png" type="image/x-icon">
+    <style>
+        *{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ 
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,2, 0, 0.8);
+    padding: 0.5% 3%;
+    width: 100%;
+}
+
+ .nav-links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1.2rem;
+    padding: 0 10px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-links li a:hover{
+    color: #008844;
+}
+
+.cta button{
+    padding: 9px 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    
+} 
+
+
+
+.container{
+    width: 1000px;
+    margin: auto;
+    height: 600px;
+    background-color: #757474;
+    padding: 4rem 5rem;
+    position: relative;
+    border-radius: 2rem;
+    margin-top: 40px;
+}
+
+ .bucket{
+    width: 45%;
+    font-family: poppins;
+}
+
+.bucket .water{
+    text-align: center;
+    text-transform: capitalize;
+    color: #0b0b0b;
+    margin-bottom: 1.5rem;
+}
+
+.bucket p{
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+}
+
+a.btn{
+    border: 1px solid #101010;
+    color: #f6f6f6;
+    padding: 0.9rem 2rem;
+    margin-top: 0.9rem;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    background-color: #0a0a0a;
+    margin-left: 250px;
+} 
+
+.container img{
+    position: absolute; 
+    top: 16%; 
+    right: -20%;
+    box-shadow: 5px 4px 10px rgba(0,2, 0, 0.8);
+    border-radius: 1.5rem;
+}
+
+a.btn:hover{
+    border: 1px solid ;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+    </style>
+</head>
+<body style="background-image: url(img/pexels-pixabay-280222.jpg);background-size: cover;">
+    <header>
+        <a href="restate.html"><img src="images - Copy/main logo.jpg" alt="" width="10%" style="border-radius: 3rem;"></a>
+        <nav class="nav-links">
+            <ul>
+            <li><a href="restate.html">Home</a></li>
+            <li><a href="Abou.html">About us</a></li>
+            <li><a href="listings.php">My Properties</a></li>
+            <li><a href="Newss.html">News</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            </ul>    
+        </nav>   
+        <!-- <a href="product.html" class="cta"><button>Order now</button></a>  -->
+    </header> 
+    
+    
+    <div class="container">
+        <div class="bucket">
+            <h1 class="water">News</h1>
+            <p> Stay up-to-date with the latest trends, insights, and updates in the real estate market. At Tom's Props, we are committed to providing our clients with valuable information to help them make informed decisions.
+                
+                Recent Updates:
+                
+                New Listings: Check out our latest properties available for sale and rent.
+                Market Trends: Stay informed about the latest shifts in the real estate market.
+                Expert Advice: Read our blog for tips on buying, selling, and investing in real estate.
+                For the latest news and updates, visit our blog or follow us on social media.
+            </p>
+            <a href="#" class="btn">Suscribe for more exciting news.</a>
+        </div>
+
+        <img src="img/you.jpg" alt="">
+    </div>
+</body>
+</html>
